@@ -26,7 +26,7 @@ gulp.task('copy:deps', function(){
 //copy html/css/js files
 gulp.task('copy:src', function(){
   return gulp.src([
-    'src/bootstrap.js',
+    'src/**/bootstrap.js',
     'src/index.html',
     'src/**/*.html',
     'src/**/*.css'
@@ -61,5 +61,5 @@ gulp.task('server', ['copy:deps', 'copy:src','compile:app'], function() {
 //default task
 gulp.task('default', ['server'], function(){
   gulp.watch(['src/**/*.ts'], ['compile:app']);
-  gulp.watch(['src/**/.js', 'src/**/*.html'], ['copy:src']);
+  gulp.watch(['src/**/*.js', 'src/**/*.css', 'src/**/*.html'], ['copy:src']);
 });

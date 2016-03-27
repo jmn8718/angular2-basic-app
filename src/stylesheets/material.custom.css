@@ -1,0 +1,28 @@
+.mdl-layout__header .mdl-layout__drawer-button{
+  max-height: 44px;
+}
+
+.mdl-layout__header .mdl-layout__drawer-button .material-icons{
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1024px){
+  .mdl-layout__header .mdl-layout__drawer-button{
+    max-height: 56px;
+  }
+
+  .mdl-layout__header .mdl-layout__drawer-button .material-icons{
+    margin-top: 12px;
+  }
+}
+
+/*@media screen and (max-width:839px){*/
+  /*.mdl-layout__header .mdl-navigation{*/
+    /*display: none;*/
+  /*}*/
+/*}*/
+@media screen and (max-width:479px){
+  .mdl-layout__header .mdl-navigation{
+    display: none;
+  }
+}

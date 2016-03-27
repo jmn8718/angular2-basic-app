@@ -7,6 +7,10 @@ System.config({
   }
 });
 
-System.import('./app.js').catch(function(err){
+System.import('../app/boot.js').catch(function(err){
   console.error(err);
 });
+
+setTimeout( function(){
+  componentHandler.upgradeDom();
+}, 300)
