@@ -10,3 +10,7 @@ Work in progress!
 - run `npm install` to install dependencies
 - run `npm start` to fire up dev server
 - open browser to `http://localhost:8080`
+
+
+### interesting links
+http://blog.tutum.co/2015/09/09/docker-compose-angularjs-and-tutum-part-2/
